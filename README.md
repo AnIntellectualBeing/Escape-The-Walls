@@ -14,24 +14,20 @@ The policy currently assumes:
 
 If the app uses Firebase Analytics, Crashlytics, another ad network, cloud saves, login, analytics, or any other SDK, update the policy before publishing.
 
-## Publish using a new GitHub repository
+## Publish using your GitHub repository
 
-1. Sign in to https://github.com/.
-2. Select **New repository**.
-3. Set the repository name to `escape-the-walls`.
-4. Set visibility to **Public**.
-5. Select **Create repository**.
-6. Upload `index.html`, `privacy_policy.html`, `styles.css`, `.nojekyll`, and the complete `assets` folder to the root of the repository.
-7. Open the repository's **Settings**.
-8. Select **Pages** under **Code and automation**.
-9. Under **Build and deployment**, choose **Deploy from a branch**.
-10. Select branch **main**, folder **/(root)**, and then **Save**.
-11. Wait a few minutes for GitHub Pages to publish.
+1. Open your repository: https://github.com/AnIntellectualBeing/Escape-The-Walls
+2. Upload `index.html`, `privacy_policy.html`, `styles.css`, `.nojekyll`, and the complete `assets` folder to the root of the repository.
+3. Open the repository's **Settings**.
+4. Select **Pages** under **Code and automation**.
+5. Under **Build and deployment**, choose **Deploy from a branch**.
+6. Select branch **main**, folder **/(root)**, and then **Save**.
+7. Wait a few minutes for GitHub Pages to publish.
 
 Your URL should be:
 
 ```text
-https://YOUR-GITHUB-USERNAME.github.io/escape-the-walls/
+https://AnIntellectualBeing.github.io/Escape-The-Walls/
 ```
 
 Open the URL in an incognito/private window. It must load without requiring a GitHub login.
@@ -44,7 +40,7 @@ Open the URL in an incognito/private window. It must load without requiring a Gi
 4. Paste the direct privacy-policy URL:
 
 ```text
-https://YOUR-GITHUB-USERNAME.github.io/escape-the-walls/privacy_policy.html
+https://AnIntellectualBeing.github.io/Escape-The-Walls/privacy_policy.html
 ```
 5. Save.
 
@@ -62,4 +58,4 @@ Update the policy before releasing features that change data handling, including
 - multiplayer, leaderboards, or social features; or
 - a change to the app's intended age audience.
 
-After editing the page, change the **Last updated** date in `index.html`.
+After editing the policy, change the **Last updated** date in `privacy_policy.html`.
