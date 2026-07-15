@@ -1,61 +1,56 @@
-# Escape the Walls Privacy Policy
+# Escape the Walls
 
-This folder is a complete Escape the Walls mini-site and privacy policy, ready to publish with GitHub Pages.
+**Hold. Drag. Escape.**
 
-## Before publishing
+Escape the Walls is a fast, precision-based portrait arcade game for Android. Guide a ball through shifting walls, living machinery, gravity wells, lasers, rotating hazards, caves, and transforming geometric encounters.
 
-The policy currently assumes:
+![Escape the Walls gameplay](assets/gameplay.png)
 
-- the game does not require an account;
-- game progress and preferences are stored locally;
-- Google AdMob is the only third-party SDK that processes user data;
-- the game does not currently sell in-app products; and
-- the game is not specifically directed to children under 13.
+## Gameplay
 
-If the app uses Firebase Analytics, Crashlytics, another ad network, cloud saves, login, analytics, or any other SDK, update the policy before publishing.
+- Hold and drag to control the ball.
+- Read each machine before it transforms.
+- Dodge dynamic walls, rotors, lasers, black holes, and collapsing spaces.
+- Use power-ups such as Shield, Freeze, Ghost, Blast, Blink, and Slow Time.
+- Survive 56 increasingly difficult campaign levels.
 
-## Publish using your GitHub repository
+## Features
 
-1. Open your repository: https://github.com/AnIntellectualBeing/Escape-The-Walls
-2. Upload `index.html`, `privacy_policy.html`, `styles.css`, `.nojekyll`, and the complete `assets` folder to the root of the repository.
-3. Open the repository's **Settings**.
-4. Select **Pages** under **Code and automation**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select branch **main**, folder **/(root)**, and then **Save**.
-7. Wait a few minutes for GitHub Pages to publish.
+- Fast one-touch arcade controls
+- Authored campaign encounters
+- Transforming obstacles and compound machines
+- Multiple power-ups with distinct tactical uses
+- Minimal black-and-white visual style
+- Offline single-player gameplay
 
-Your URL should be:
+## Technology
 
-```text
-https://AnIntellectualBeing.github.io/Escape-The-Walls/
+- Kotlin
+- Android SDK
+- Jetpack Compose for menus and interface screens
+- `SurfaceView` and Android `Canvas` for the gameplay loop
+- Gradle
+
+## Build
+
+Open the project in Android Studio, or build a debug APK from the command line:
+
+```bash
+./gradlew assembleDebug
 ```
 
-Open the URL in an incognito/private window. It must load without requiring a GitHub login.
+Create the Google Play release bundle with:
 
-## Add it to Google Play Console
-
-1. Open your app in Google Play Console.
-2. Go to **Policy and programs > App content**.
-3. Under **Privacy policy**, select **Start** or **Manage**.
-4. Paste the direct privacy-policy URL:
-
-```text
-https://AnIntellectualBeing.github.io/Escape-The-Walls/privacy_policy.html
+```bash
+./gradlew bundleRelease
 ```
-5. Save.
 
-Also place a clickable Privacy Policy link inside the game's Settings or About screen when required by your app's data practices and target audience.
+## Privacy
 
-## Future changes
+Read the [Escape the Walls Privacy Policy](https://AnIntellectualBeing.github.io/Escape-The-Walls/privacy_policy.html).
 
-Update the policy before releasing features that change data handling, including:
+## Contact
 
-- Google Play Billing or in-app purchases;
-- account login;
-- cloud saves;
-- Firebase Analytics or Crashlytics;
-- additional advertising networks;
-- multiplayer, leaderboards, or social features; or
-- a change to the app's intended age audience.
+For support or privacy questions, contact [anintellectualcompany.contact@gmail.com](mailto:anintellectualcompany.contact@gmail.com).
 
-After editing the policy, change the **Last updated** date in `privacy_policy.html`.
+© 2026 An Intellectual Company. All rights reserved.
